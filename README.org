@@ -1,0 +1,20 @@
+
+Pure header example
+
+Build and run
+
+#+BEGIN_SRC sh
+#cmake -H. -B_builds -DHUNTER_STATUS_DEBUG=ON -DCMAKE_BUILD_TYPE=Release
+#cmake --build _builds --config Release
+
+cmake -H. -B_builds -DHUNTER_STATUS_DEBUG=ON -DCMAKE_BUILD_TYPE=Debug
+cd _builds; make
+#+END_SRC
+
+* hunter
+
+CMake-driven cross-platform package manager for C++.
+https://github.com/ruslo/hunter
+
+Hunter 3.0.0 Minimum required
+

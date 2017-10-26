@@ -26,3 +26,9 @@ https://github.com/ruslo/hunter
 
 Hunter 3.0.0 Minimum required
 
+
+https://stackoverflow.com/questions/26749461/how-to-determine-the-boost-library-names-for-cmake
+
+header-only
+It is sufficient to add ${Boost_INCLUDE_DIRS}
+to the include directories of your target.
